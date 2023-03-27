@@ -7,17 +7,12 @@ public class Woda extends Napoje {
     private void gazuj(){
 
     }
-
+    public Woda(String nazwa) {
+        super(nazwa);
+    }
     @Override
     public String pij() {
         String picie="pite";
         return picie;
-    }
-    public String getNazwa() {
-        return nazwa;
-    }
-
-    public void setNazwa(String nazwa) {
-        this.nazwa = nazwa;
     }
 }

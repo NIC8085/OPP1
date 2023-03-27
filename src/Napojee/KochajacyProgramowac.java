@@ -1,3 +1,5 @@
+package Napojee;
+
 public interface KochajacyProgramowac {
-    //programuj();
+    String programuj();
 }
